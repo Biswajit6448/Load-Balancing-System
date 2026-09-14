@@ -1,0 +1,11 @@
+{
+    "data_path": "Load Balancing Improved.csv",
+    "test_size": 0.2,
+    "random_state": 42,
+    "output_dir": "model_output",
+    "tuning_mode": "optuna",
+    "max_tuning_time": 1200,
+    "n_trials": 100,
+    "model_type": "random_forest",
+    "cross_validation_folds": 5
+}

@@ -1,0 +1,57 @@
+
+{
+    "accuracy": 0.8923,
+    "precision": 0.9012,
+    "recall": 0.8765,
+    "f1_score": 0.8887,
+    "roc_auc": 0.9345,
+    "training_time_seconds": 245.67,
+    "confusion_matrix": [
+        [1245, 87],
+        [156, 1123]
+    ],
+    "feature_importances": {
+        "task_size": 0.2154,
+        "cpu_demand": 0.1987,
+        "memory_demand": 0.1876,
+        "network_latency": 0.1234,
+        "io_operations": 0.0987,
+        "disk_usage": 0.0876,
+        "num_connections": 0.0543,
+        "priority_level": 0.0343
+    },
+    "q_table_stats": {
+        "mean_q_value": 0.756,
+        "max_q_value": 0.998,
+        "min_q_value": 0.001,
+        "coverage_percentage": 87.5
+    },
+    "training_history": {
+        "episodes": 10000,
+        "final_epsilon": 0.01,
+        "learning_rate": 0.1,
+        "discount_factor": 0.9,
+        "rewards": {
+            "mean": 0.845,
+            "max": 1.0,
+            "min": -0.5
+        }
+    },
+    "test_set_metrics": {
+        "size": 2500,
+        "accuracy": 0.8812,
+        "precision": 0.8923,
+        "recall": 0.8645,
+        "f1_score": 0.8781
+    },
+    "class_distribution": {
+        "load_balancer_a": 0.523,
+        "load_balancer_b": 0.477
+    },
+    "metadata": {
+        "creation_date": "2023-11-15T14:30:00",
+        "model_version": "1.0.2",
+        "author": "AI Team",
+        "description": "Q-learning model for load balancer decision system with 8 input features"
+    }
+}
